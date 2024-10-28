@@ -1,4 +1,4 @@
- /* General Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +10,9 @@ body {
     background: linear-gradient(to bottom, #f9f9f9, #ececec);
     color: #333;
     line-height: 1.6;
+    scroll-behavior: smooth;
 }
- 
+
 /* Header and Navigation */
 header {
     background: linear-gradient(135deg, #232526, #414345);
@@ -51,7 +52,7 @@ header h1 {
     cursor: pointer;
     font-weight: bold;
     border-radius: 5px;
-    transition: backgrounds 0.3s;
+    transition: background 0.3s;
 }
 
 .cart-btn:hover {
@@ -160,7 +161,7 @@ header h1 {
 footer {
     background-color: #1c1c1e;
     color: #fff;
-    padding: 30px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -181,3 +182,12 @@ footer {
     gap: 15px;
 }
 
+.social-links a {
+    color: #ffc107;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff9800;
+}
